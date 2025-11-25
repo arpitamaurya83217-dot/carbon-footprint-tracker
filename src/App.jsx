@@ -6,6 +6,7 @@ import Footer from './components/Footer'
 import { Outlet } from 'react-router-dom'
 import Calculate from './pages/Calculate'
 import Privacy from './pages/Privacy'
+import './index.css'
 
 import './App.css'
 

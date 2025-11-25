@@ -21,7 +21,7 @@ function Home() {
               className="w-full bg-green-700 bg-cover bg-center relative flex justify-center items-center py-16 sm:py-24"
               style={{
                 backgroundImage:
-                  "url('../../public/images/forests-background.png')",
+                  "url('/images/forests-background.png')",
               }}
             >
               <div className="bg-white bg-opacity-80 w-11/12 sm:w-3/5 text-center p-6 sm:p-12 rounded">
@@ -65,7 +65,7 @@ function Home() {
           <div className="flex items-center justify-center flex-col">
             <div className="flex items-center flex-col flex-grow-0 max-w-[210px] text-center">
               <img
-                src="../../public/images/calculate-carbon-footprint.png"
+                src="/images/calculate-carbon-footprint.png"
                 alt="calculate your carbon footprint"
                 className="h-24"
               />
@@ -78,7 +78,7 @@ function Home() {
             <div className="flex items-center flex-col flex-grow-0 max-w-[210px] text-center">
               <img
                 className="h-24"
-                src="../../public/images/offset-your-climate-impact.png"
+                src="/images/offset-your-climate-impact.png"
                 alt="offset-Climate-Impact"
               />
               <p className="font-light leading-[1.5] m-0">
@@ -89,7 +89,7 @@ function Home() {
 
             <div className="flex items-center flex-col flex-grow-0 max-w-[210px] text-center">
               <img
-                src="../../public/images/help-fight-climate-change.png"
+                src="/images/help-fight-climate-change.png"
                 alt="help-fight-climate-change"
                 className="h-24"
               />
@@ -125,7 +125,7 @@ function Home() {
               {/* Protect Forests Section */}
               <div className="overflow-hidden relative w-full md:w-1/2 mb-6 md:mb-0">
                 {/* Image Section */}
-                <div className="bg-[url('../../public/images/forest.png')] bg-gray-300 relative bg-cover bg-center bg-no-repeat overflow-hidden flex flex-col items-center justify-between w-full h-64 md:h-[60vh] text-white mt-11 p-6 md:p-12">
+                <div className="bg-[url('/images/forest.png')] bg-gray-300 relative bg-cover bg-center bg-no-repeat overflow-hidden flex flex-col items-center justify-between w-full h-64 md:h-[60vh] text-white mt-11 p-6 md:p-12">
                   <h3 className="w-full uppercase text-center md:text-left">
                     Protect
                     <span className="block text-4xl md:text-6xl leading-8 md:leading-8">
@@ -158,7 +158,7 @@ function Home() {
                 {/* Protect Forests Section */}
                 <div className="overflow-hidden relative w-full md:w-1/2 mb-6 md:mb-0">
                   {/* Image Section */}
-                  <div className="bg-[url('../../public/images/working_women.jpg')] bg-gray-300 relative bg-cover bg-center bg-no-repeat overflow-hidden flex flex-col items-center justify-between w-full h-64 md:h-[60vh] text-white mt-11 p-6 md:p-12">
+                  <div className="bg-[url('/images/working_women.jpg')] bg-gray-300 relative bg-cover bg-center bg-no-repeat overflow-hidden flex flex-col items-center justify-between w-full h-64 md:h-[60vh] text-white mt-11 p-6 md:p-12">
                     <h3 className="w-full uppercase text-center md:text-left">
                       Local Benefit
                       <span className="block text-4xl md:text-6xl leading-8 md:leading-8">
@@ -241,7 +241,7 @@ function Home() {
           <div
             className="relative w-full h-[400px] sm:h-[700px] bg-cover bg-center"
             style={{
-              backgroundImage: "url('../../public/images/green-field.jpg')",
+              backgroundImage: "url('/images/green-field.jpg')",
             }}
           >
             <div className="absolute inset-0 bg-white bg-opacity-60 flex flex-col justify-center items-center p-4 sm:p-12 text-gray-700 text-center">

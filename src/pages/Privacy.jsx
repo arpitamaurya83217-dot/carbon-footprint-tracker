@@ -4,7 +4,7 @@ export default function Privacy() {
   return (
     <div className="max-w-4xl mx-auto p-6 sm:p-10"style={{
                 backgroundImage:
-                  "url('../../public/images/background.png')",
+                  "url('/images/background.png')",
                   // color: 'black'
               }}>
       <h1 className="text-3xl font-bold mb-6">Privacy Policy</h1>

@@ -4,7 +4,7 @@ export default function Term() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gray-50 p-4" style={{
                 backgroundImage:
-                  "url('../../public/images/terms.png')",
+                  "url('/images/terms.png')",
                   // color: 'black'
               }}> 
       <h1 className="text-3xl font-bold mb-6 text-black-800">Terms & Conditions</h1>

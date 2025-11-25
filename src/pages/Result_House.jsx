@@ -12,7 +12,7 @@ function Result() {
             <main className="bg-white block">
 
                 {/* first section */}
-                <section className="bg-[url('../../public/images/forests-main.png')] bg-center bg-no-repeat bg-cover w-full bg-white text-white mb-16 ">
+                <section className="bg-[url('/images/forests-main.png')] bg-center bg-no-repeat bg-cover w-full bg-white text-white mb-16 ">
                     <div className="flex flex-row mx-auto px-0 text-white">
                         <div className=" px-[4%] py-[40px] pb-[20px] text-center">
                             <h2 className="text-4xl leading-[1] uppercase mb-11 max-w-[400px] mx-auto block my-[0.83em] text-center isolate shadow-lg font-bold ">
@@ -127,7 +127,7 @@ function Result() {
                                 {/* first */}
                                 <div className="flex-col mb-6 text-center mx-16">
                                     <img  
-                                        src="../../public/images/cow.png"
+                                        src="/images/cow.png"
                                         alt="animal"
                                         className="ml-20 h-20 w-20 mb-3 text-center"
                                     />
@@ -139,7 +139,7 @@ function Result() {
                                 {/* second */}
                                 <div className="flex-col mb-6 text-center mx-16">
                                     <img  
-                                        src="../../public/images/mail.png"
+                                        src="/images/mail.png"
                                         alt="animal"
                                         className="ml-24 h-20 w-20 mb-3 text-center"
                                     />
@@ -151,7 +151,7 @@ function Result() {
                                 {/* third */}
                                 <div className="flex-col mb-6 text-center mx-16">
                                     <img  
-                                        src="../../public/images/clothes.png"
+                                        src="/images/clothes.png"
                                         alt="animal"
                                         className="ml-24 h-20 w-20 mb-3 text-center"
                                     />
@@ -167,7 +167,7 @@ function Result() {
                                 {/* fourth */}
                                  <div className="flex-col mb-6 text-center ml-20 mr-16">
                                     <img  
-                                        src="../../public/images/tyre.png"
+                                        src="/images/tyre.png"
                                         alt="animal"
                                         className="ml-16 h-20 w-20 mb-3 text-center"
                                     />
@@ -179,7 +179,7 @@ function Result() {
                                 {/* fifth */}
                                 <div className="flex-col mb-6 text-center mx-14">
                                     <img  
-                                        src="../../public/images/thermostat.png"
+                                        src="/images/thermostat.png"
                                         alt="animal"
                                         className="relative left-[30px] ml-24 h-20 w-20 mb-3 text-center"
                                     />
@@ -191,7 +191,7 @@ function Result() {
                                 {/* sixth */}
                                 <div className="flex-col mb-6 text-center mx-16">
                                     <img  
-                                        src="../../public/images/fuel.png"
+                                        src="/images/fuel.png"
                                         alt="animal"
                                         className="ml-24 h-20 w-20 mb-3 text-center"
                                     />
@@ -236,7 +236,7 @@ function Result() {
 
                 {/* sixth section */}
                 <section className="bg-white">
-                    <div className="bg-[url('../../public/images/green-field.jpg')] relative bg-cover bg-no-repeat bg-center w-full h-[700px] bg-blue-800 flex flex-col">
+                    <div className="bg-[url('/images/green-field.jpg')] relative bg-cover bg-no-repeat bg-center w-full h-[700px] bg-blue-800 flex flex-col">
                         <div className="max-w-[600] mx-auto flex flex-row justify-content align-center  gap-x-28 p-0">
                             <div className="my-150px max-w-[500px] px-38 py-33 my-[200px] mr-[650px] bg-[rgba(255,255,255,0.65)] col-span-4">
                                 <p className="text-2xl leading-normal mb-1 m-4 mt-2 font-semibold">

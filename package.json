@@ -1,31 +1,44 @@
 {
   "name": "carbon-footprint-tracker",
-  "version": "1.0.0",
+  "private": true,
+  "version": "0.0.0",
   "type": "module",
-  "homepage": "https://arpitamaurya83217-dot.github.io/Carbon-FootPrint-Tracker",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "@emotion/react": "^11.14.0",
-    "@emotion/styled": "^11.14.1",
-    "@mui/icons-material": "^7.3.5",
-    "@mui/material": "^7.3.5",
-    "@mui/x-charts": "^8.19.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-router-dom": "^6.30.2"
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/material": "^5.15.18",
+    "@mui/x-charts": "^7.5.1",
+    "@reduxjs/toolkit": "^2.2.5",
+    "@tinymce/tinymce-react": "^5.0.1",
+    "appwrite": "^14.0.1",
+    "html-react-parser": "^5.1.10",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.51.5",
+    "react-redux": "^9.1.2",
+    "react-router-dom": "^6.23.1"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4.1.17",
-    "@vitejs/plugin-react": "^5.1.1",
-    "autoprefixer": "^10.4.22",
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.19",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.6",
     "gh-pages": "^5.0.0",
-    "postcss": "^8.5.6",
-    "tailwindcss": "^4.1.17",
-    "vite": "^4.5.14"
+    "postcss": "^8.4.38",
+    "tailwind": "^4.0.0",
+    "tailwindcss": "^3.4.3",
+    "vite": "^5.2.0"
   }
 }
