@@ -53,30 +53,6 @@ npm install
 npm run dev
 npm run build
 
-
----
-
-###  **Deployment Section**
-
-Add info about **deploying to Vercel or Netlify**, especially since you mentioned frontend deployment:
-
-```markdown
-##  Deployment Guide
-
-You can deploy the `dist/` folder to:
-
-### **Vercel (Recommended)**
-1. Go to [Vercel](https://vercel.com)
-2. Click **New Project**
-3. Import your GitHub repository
-4. Vercel will auto-detect **Vite + React**
-5. Click **Deploy**
-
-### **Netlify**
-1. Go to [Netlify](https://netlify.com)
-2. Click **Deploy a Site**
-3. Drag & drop the `dist/` folder
-4. Deployment starts immediately
-
+## Deplyoment
 
 
