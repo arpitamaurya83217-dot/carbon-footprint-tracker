@@ -1,6 +1,7 @@
 {
   "name": "carbon-footprint-tracker",
   "version": "1.0.0",
+  "type": "module",
   "homepage": "https://arpitamaurya83217-dot.github.io/Carbon-FootPrint-Tracker",
   "scripts": {
     "dev": "vite",
@@ -9,13 +10,16 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^6.14.1"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.30.2"
   },
   "devDependencies": {
+    "@vitejs/plugin-react": "^5.1.1",
+    "autoprefixer": "^10.4.22",
     "gh-pages": "^5.0.0",
-    "vite": "^4.5.0"
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.17",
+    "vite": "^4.5.14"
   }
 }
-
